@@ -3,6 +3,12 @@
     <style name="Base.Theme.LaSeis" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:textColor">#7700FF</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="Theme.LaSeis" parent="Base.Theme.LaSeis" />
